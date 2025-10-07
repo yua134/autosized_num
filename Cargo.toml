@@ -1,0 +1,25 @@
+[package]
+name = "autosized-num"
+version = "0.1.0"
+edition = "2024"
+authors = ["Yua"]
+description = "Auto-sized integer macros: choose the smallest signed/unsigned type for a literal at compile time."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yua134/autosized-num"
+readme = "README.md"
+exclude = [
+    ".gitignore",
+    ".github/*",
+    "target/*",
+]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.101"
+quote = "1.0.41"
+syn = "2.0.106"
+
+[dev-dependencies]
+static_assertions = "1.1.0"

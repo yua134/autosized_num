@@ -14,7 +14,7 @@ exclude = [
     "about.toml",
     "about.hbs",
 ]
-categories = ["development-tools::build-helpers", "no-std"]
+categories = ["development-tools", "no-std"]
 keywords = ["proc-macro", "integer", "auto-size", "numeric", "no_std"]
 
 [lib]

@@ -5,12 +5,14 @@ edition = "2024"
 authors = ["Yua"]
 description = "Auto-sized integer macros: choose the smallest signed/unsigned type for a literal at compile time."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/yua134/autosized-num"
+repository = "https://github.com/yua134/autosized_num"
 readme = "README.md"
 exclude = [
     ".gitignore",
     ".github/*",
     "target/*",
+    "about.toml",
+    "about.hbs",
 ]
 
 [lib]

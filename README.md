@@ -1,4 +1,6 @@
 [![CI](https://github.com/yua134/autosized_num/actions/workflows/ci.yml/badge.svg)](https://github.com/yua134/autosized_num/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/autosized-num.svg)](https://crates.io/crates/autosized-num)
+[![Docs.rs](https://docs.rs/autosized-num/badge.svg)](https://docs.rs/autosized-num)
 
 # autosized-num
 
@@ -66,4 +68,6 @@ fn main() {
 ## Crate Info
 
 - License: MIT OR Apache-2.0
-- Repository: [GitHub](https://github.com/yua134/autosized-num)
+- Crate: [autosized-num on crates.io](https://crates.io/crates/autosized-num)
+- Docs: [docs.rs/autosized-num](https://docs.rs/autosized-num)
+- Repository: [GitHub](https://github.com/yua134/autosized_num)
